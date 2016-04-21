@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#
+#  find-clang-format.sh
+#  Shared
+#
+#  Created by Michael Reneer on 4/20/16.
+#  Copyright © 2016 Michael Reneer. All rights reserved.
+#
+
+find . -name "*.[h|hpp|m|mm|swift|c|cpp|cxx]" -print0 | xargs -0 clang-format -i -style=file
