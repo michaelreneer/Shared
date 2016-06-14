@@ -14,7 +14,7 @@ SDKROOT = iphoneos
 ENABLE_BITCODE = NO
 
 // Code Signing
-CODE_SIGN_IDENTITY[sdk=iphoneos*] = iOS Developer
+CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Developer
 PROVISIONING_PROFILE =
 
 // Deployment
