@@ -1,12 +1,12 @@
 //
-//  Framework-OSX.xcconfig
+//  Framework-macOS.xcconfig
 //  Shared
 //
 //  Created by Michael Reneer on 4/1/16.
 //  Copyright © 2016 Michael Reneer. All rights reserved.
 //
 
-#include "Target-OSX.xcconfig"
+#include "Target-macOS.xcconfig"
 
 // Deployment
 INSTALL_PATH = $(LOCAL_LIBRARY_DIR)/Frameworks
