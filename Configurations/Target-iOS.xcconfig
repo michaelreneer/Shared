@@ -13,10 +13,6 @@ SDKROOT = iphoneos
 // Build Options
 ENABLE_BITCODE = NO
 
-// Code Signing
-CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Developer
-PROVISIONING_PROFILE =
-
 // Deployment
 IPHONEOS_DEPLOYMENT_TARGET = 9.0
 TARGETED_DEVICE_FAMILY = 1,2

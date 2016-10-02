@@ -11,6 +11,10 @@
 // Linking
 LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks
 
+// Code Signing
+CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Developer
+PROVISIONING_PROFILE =
+
 // Asset Catalog Compiler - Options
 ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
 ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = Brand Assets
