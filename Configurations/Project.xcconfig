@@ -6,9 +6,6 @@
 //  Copyright © 2016 Michael Reneer. All rights reserved.
 //
 
-// Deployment
-SKIP_INSTALL = YES
-
 // Linking
 DEAD_CODE_STRIPPING = YES
 

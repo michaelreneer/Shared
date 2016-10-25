@@ -8,5 +8,8 @@
 
 #include "Target-macOS.xcconfig"
 
+// Deployment
+SKIP_INSTALL = YES
+
 // Packaging
 EXECUTABLE_PREFIX = lib
