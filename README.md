@@ -2,14 +2,14 @@
 
 #### Install Shared Submodule
 
-Add [submodule][] in git.
+Add Shared as a [submodule][] in git.
 
 ```bash
 cd "<Project Directory>"
 git submodule add "git@github.com:michaelreneer/Shared.git"
 ```
 
-Drag the Shared folder from Finder into the Xcode Project Navigator.
+Open Xcode and drag the Shared folder from Finder into the Project Navigator.
 
 Commit the changes.
 
