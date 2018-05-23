@@ -6,7 +6,7 @@ Add [submodule][] in git.
 
 ```bash
 cd "<Project Directory>"
-git submodule add "https://github.com/michaelreneer/Shared.git"
+git submodule add "git@github.com:michaelreneer/Shared.git"
 ```
 
 Drag the Shared folder from Finder into the Xcode Project Navigator.
@@ -41,4 +41,3 @@ ln -s "clang+llvm-3.8.0/bin/git-clang-format" "/usr/local/bin"
 Copyright (c) 2016 Michael Reneer. See LICENSE for details.
 
 [submodule]: http://git-scm.com/book/en/Git-Tools-Submodules "Submodule"
-
